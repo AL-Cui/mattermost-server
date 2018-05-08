@@ -10,8 +10,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/model"
+	"mattermost-server/utils"
 )
 
 const OPEN_GRAPH_METADATA_CACHE_SIZE = 10000

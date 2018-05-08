@@ -7,7 +7,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/mattermost/mattermost-server/plugin/rpcplugin"
+	"mattermost-server/plugin/rpcplugin"
 )
 
 type MountPoint struct {

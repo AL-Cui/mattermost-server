@@ -8,8 +8,8 @@ import (
 
 	"time"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
+	"mattermost-server/model"
+	"mattermost-server/store"
 )
 
 func TestClusterDiscoveryStore(t *testing.T, ss store.Store) {

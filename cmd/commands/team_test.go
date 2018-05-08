@@ -6,9 +6,9 @@ package commands
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/api"
-	"github.com/mattermost/mattermost-server/cmd"
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/api"
+	"mattermost-server/cmd"
+	"mattermost-server/model"
 )
 
 func TestCreateTeam(t *testing.T) {

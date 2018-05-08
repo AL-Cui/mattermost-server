@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 /*func TestWebSocketAuthentication(t *testing.T) {

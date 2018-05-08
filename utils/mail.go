@@ -17,9 +17,10 @@ import (
 
 	"net/http"
 
-	l4g "github.com/alecthomas/log4go"
 	"github.com/mattermost/html2text"
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
+
+	l4g "github.com/alecthomas/log4go"
 )
 
 func encodeRFC2047Word(s string) string {

@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"encoding/json"
-	"github.com/mattermost/mattermost-server/cmd"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/cmd"
+	"mattermost-server/utils"
 )
 
 func TestConfigFlag(t *testing.T) {

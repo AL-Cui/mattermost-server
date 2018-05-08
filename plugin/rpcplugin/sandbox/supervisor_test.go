@@ -6,7 +6,7 @@ package sandbox
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/plugin/rpcplugin/rpcplugintest"
+	"mattermost-server/plugin/rpcplugin/rpcplugintest"
 )
 
 func TestSupervisorProvider(t *testing.T) {

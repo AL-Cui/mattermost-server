@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/plugin"
-	"github.com/mattermost/mattermost-server/plugin/plugintest"
+	"mattermost-server/model"
+	"mattermost-server/plugin"
+	"mattermost-server/plugin/plugintest"
 )
 
 func TestPluginKeyValueStore(t *testing.T) {

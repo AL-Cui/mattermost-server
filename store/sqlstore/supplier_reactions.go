@@ -10,9 +10,9 @@ import (
 	l4g "github.com/alecthomas/log4go"
 
 	"github.com/mattermost/gorp"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/model"
+	"mattermost-server/store"
+	"mattermost-server/utils"
 )
 
 func initSqlSupplierReactions(sqlStore SqlStore) {

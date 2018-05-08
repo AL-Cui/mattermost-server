@@ -6,9 +6,10 @@ package store
 import (
 	"context"
 
+	"mattermost-server/einterfaces"
+	"mattermost-server/model"
+
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/einterfaces"
-	"github.com/mattermost/mattermost-server/model"
 )
 
 const (

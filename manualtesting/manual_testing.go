@@ -12,10 +12,10 @@ import (
 	"time"
 
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/api"
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/api"
+	"mattermost-server/app"
+	"mattermost-server/model"
+	"mattermost-server/utils"
 )
 
 type TestEnvironment struct {

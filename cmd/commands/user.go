@@ -9,10 +9,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
+	"mattermost-server/app"
+	"mattermost-server/cmd"
+	"mattermost-server/model"
+
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/cmd"
-	"github.com/mattermost/mattermost-server/model"
 	"github.com/spf13/cobra"
 )
 

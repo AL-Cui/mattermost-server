@@ -16,10 +16,10 @@ import (
 	"unicode"
 
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
-	"github.com/mattermost/mattermost-server/utils"
-	"github.com/mattermost/mattermost-server/utils/markdown"
+	"mattermost-server/model"
+	"mattermost-server/store"
+	"mattermost-server/utils"
+	"mattermost-server/utils/markdown"
 	"github.com/nicksnyder/go-i18n/i18n"
 )
 

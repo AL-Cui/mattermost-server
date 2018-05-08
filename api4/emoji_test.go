@@ -9,8 +9,8 @@ import (
 	_ "image/gif"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/model"
+	"mattermost-server/utils"
 
 	"github.com/stretchr/testify/assert"
 )

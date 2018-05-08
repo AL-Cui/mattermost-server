@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 type API interface {

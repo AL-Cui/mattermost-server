@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 	"github.com/stretchr/testify/require"
 )
 

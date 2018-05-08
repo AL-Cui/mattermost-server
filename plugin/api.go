@@ -4,7 +4,7 @@
 package plugin
 
 import (
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 // The API can be used to retrieve data or perform actions on behalf of the plugin. Most methods

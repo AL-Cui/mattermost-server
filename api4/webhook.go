@@ -12,8 +12,8 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/gorilla/schema"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/model"
+	"mattermost-server/utils"
 )
 
 func (api *API) InitWebhook() {

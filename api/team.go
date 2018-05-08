@@ -12,7 +12,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 func (api *API) InitTeam() {

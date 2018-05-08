@@ -13,10 +13,10 @@ import (
 	"sync"
 
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/einterfaces"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/einterfaces"
+	"mattermost-server/model"
+	"mattermost-server/store"
+	"mattermost-server/utils"
 )
 
 type SqlPostStore struct {

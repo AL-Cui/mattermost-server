@@ -6,8 +6,8 @@ package sqlstore
 import (
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
+	"mattermost-server/model"
+	"mattermost-server/store"
 )
 
 type SqlLicenseStore struct {

@@ -10,8 +10,8 @@ import (
 
 	l4g "github.com/alecthomas/log4go"
 
-	"github.com/mattermost/mattermost-server/store/storetest"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/store/storetest"
+	"mattermost-server/utils"
 )
 
 func TestMain(m *testing.M) {

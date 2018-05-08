@@ -6,8 +6,8 @@ package app
 import (
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/model"
+	"mattermost-server/utils"
 
 	l4g "github.com/alecthomas/log4go"
 )

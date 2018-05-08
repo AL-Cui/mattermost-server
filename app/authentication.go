@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/model"
+	"mattermost-server/utils"
 )
 
 type TokenLocation int

@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/model"
+	"mattermost-server/utils"
 )
 
 func TestCreateChannel(t *testing.T) {

@@ -6,9 +6,9 @@ package sqlstore
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
-	"github.com/mattermost/mattermost-server/store/storetest"
+	"mattermost-server/model"
+	"mattermost-server/store"
+	"mattermost-server/store/storetest"
 )
 
 func TestPreferenceStore(t *testing.T) {

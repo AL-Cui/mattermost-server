@@ -3,7 +3,7 @@ package app
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 func TestProcessSlackText(t *testing.T) {

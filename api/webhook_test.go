@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 func TestCreateIncomingHook(t *testing.T) {

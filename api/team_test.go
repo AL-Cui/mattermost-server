@@ -6,9 +6,9 @@ package api
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/model"
+	"mattermost-server/store"
+	"mattermost-server/utils"
 )
 
 func TestCreateTeam(t *testing.T) {

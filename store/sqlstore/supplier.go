@@ -15,14 +15,15 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/mattermost/gorp"
+	"mattermost-server/einterfaces"
+	"mattermost-server/model"
+	"mattermost-server/store"
+	"mattermost-server/utils"
+
 	l4g "github.com/alecthomas/log4go"
 	"github.com/go-sql-driver/mysql"
 	"github.com/lib/pq"
-	"github.com/mattermost/gorp"
-	"github.com/mattermost/mattermost-server/einterfaces"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
-	"github.com/mattermost/mattermost-server/utils"
 )
 
 const (

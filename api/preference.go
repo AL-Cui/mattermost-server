@@ -6,8 +6,9 @@ package api
 import (
 	"net/http"
 
+	"mattermost-server/model"
+
 	"github.com/gorilla/mux"
-	"github.com/mattermost/mattermost-server/model"
 )
 
 func (api *API) InitPreference() {

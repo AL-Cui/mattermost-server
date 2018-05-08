@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/app"
+	"mattermost-server/model"
+	"mattermost-server/store"
+	"mattermost-server/utils"
 
 	s3 "github.com/minio/minio-go"
 	"github.com/minio/minio-go/pkg/credentials"

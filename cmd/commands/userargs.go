@@ -4,8 +4,8 @@
 package commands
 
 import (
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/app"
+	"mattermost-server/model"
 )
 
 func getUsersFromUserArgs(a *app.App, userArgs []string) []*model.User {

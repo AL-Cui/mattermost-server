@@ -6,9 +6,10 @@ package manualtesting
 import (
 	"net/http"
 
+	"mattermost-server/model"
+	"mattermost-server/utils"
+
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
 )
 
 const LINK_POST_TEXT = `

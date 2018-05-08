@@ -17,9 +17,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
-	"github.com/mattermost/mattermost-server/store/storetest"
+	"mattermost-server/model"
+	"mattermost-server/store"
+	"mattermost-server/store/storetest"
 )
 
 func TestUpdatePostEditAt(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 func TestShrugCommand(t *testing.T) {

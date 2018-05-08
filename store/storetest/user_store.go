@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
+	"mattermost-server/model"
+	"mattermost-server/store"
 )
 
 func TestUserStore(t *testing.T, ss store.Store) {

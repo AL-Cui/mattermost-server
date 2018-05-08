@@ -6,7 +6,7 @@ package api4
 import (
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 func (api *API) InitJob() {

@@ -18,7 +18,7 @@ import (
 
 	l4g "github.com/alecthomas/log4go"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 var publicKey []byte = []byte(`-----BEGIN PUBLIC KEY-----

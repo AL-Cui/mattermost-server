@@ -10,16 +10,17 @@ import (
 	"syscall"
 	"time"
 
+	"mattermost-server/api"
+	"mattermost-server/api4"
+	"mattermost-server/app"
+	"mattermost-server/cmd"
+	"mattermost-server/manualtesting"
+	"mattermost-server/model"
+	"mattermost-server/utils"
+	"mattermost-server/web"
+	"mattermost-server/wsapi"
+
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/api"
-	"github.com/mattermost/mattermost-server/api4"
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/cmd"
-	"github.com/mattermost/mattermost-server/manualtesting"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
-	"github.com/mattermost/mattermost-server/web"
-	"github.com/mattermost/mattermost-server/wsapi"
 	"github.com/spf13/cobra"
 )
 

@@ -9,7 +9,7 @@ import (
 
 	l4g "github.com/alecthomas/log4go"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 type Schedulers struct {

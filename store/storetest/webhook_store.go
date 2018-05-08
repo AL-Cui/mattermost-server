@@ -9,8 +9,8 @@ import (
 
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
+	"mattermost-server/model"
+	"mattermost-server/store"
 )
 
 func TestWebhookStore(t *testing.T, ss store.Store) {

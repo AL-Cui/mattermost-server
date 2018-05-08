@@ -7,9 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/cmd"
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/app"
+	"mattermost-server/cmd"
+	"mattermost-server/model"
+
 	"github.com/spf13/cobra"
 )
 

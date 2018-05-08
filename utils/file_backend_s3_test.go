@@ -6,7 +6,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 func TestCheckMandatoryS3Fields(t *testing.T) {

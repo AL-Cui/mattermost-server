@@ -8,8 +8,9 @@ import (
 	"os/signal"
 	"syscall"
 
+	"mattermost-server/cmd"
+
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/cmd"
 	"github.com/spf13/cobra"
 )
 

@@ -9,10 +9,11 @@ import (
 	"strconv"
 	"strings"
 
+	"mattermost-server/app"
+	"mattermost-server/model"
+	"mattermost-server/utils"
+
 	"github.com/gorilla/mux"
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
 )
 
 const (

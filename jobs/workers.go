@@ -6,8 +6,9 @@ package jobs
 import (
 	"sync"
 
+	"mattermost-server/model"
+
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/model"
 )
 
 type Workers struct {

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 func TestListCommands(t *testing.T) {

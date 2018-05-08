@@ -6,11 +6,12 @@ package api4
 import (
 	"net/http"
 
+	"mattermost-server/app"
+	"mattermost-server/model"
+	"mattermost-server/utils"
+
 	l4g "github.com/alecthomas/log4go"
 	"github.com/gorilla/mux"
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
 
 	_ "github.com/nicksnyder/go-i18n/i18n"
 )
@@ -107,7 +108,9 @@ type Routes struct {
 	ReactionByNameForPostForUser *mux.Router // 'api/v4/users/{user_id:[A-Za-z0-9]+}/posts/{post_id:[A-Za-z0-9]+}/reactions/{emoji_name:[A-Za-z0-9_-+]+}'
 
 	Webrtc *mux.Router // 'api/v4/webrtc'
-}
+
+	Company * mux.Router
+} 
 
 type API struct {
 	App        *app.App
@@ -201,6 +204,7 @@ func Init(a *app.App, root *mux.Router, full bool) *API {
 	api.BaseRoutes.Roles = api.BaseRoutes.ApiRoot.PathPrefix("/roles").Subrouter()
 
 	api.BaseRoutes.Image = api.BaseRoutes.ApiRoot.PathPrefix("/image").Subrouter()
+	api.BaseRoutes.Company = api.Ba
 
 	api.InitUser()
 	api.InitTeam()

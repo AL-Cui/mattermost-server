@@ -6,7 +6,7 @@ package app
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 func TestCheckIfRolesGrantPermission(t *testing.T) {

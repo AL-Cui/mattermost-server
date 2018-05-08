@@ -12,10 +12,11 @@ import (
 
 	"image/color/palette"
 
+	"mattermost-server/app"
+	"mattermost-server/model"
+
 	"github.com/disintegration/imaging"
 	"github.com/gorilla/mux"
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
 )
 
 func (api *API) InitEmoji() {

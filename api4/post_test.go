@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/app"
+	"mattermost-server/model"
 )
 
 func TestCreatePost(t *testing.T) {

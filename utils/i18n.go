@@ -10,8 +10,9 @@ import (
 	"path/filepath"
 	"strings"
 
+	"mattermost-server/model"
+
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/model"
 	"github.com/nicksnyder/go-i18n/i18n"
 )
 

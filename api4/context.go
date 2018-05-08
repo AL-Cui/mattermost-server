@@ -13,9 +13,9 @@ import (
 	l4g "github.com/alecthomas/log4go"
 	goi18n "github.com/nicksnyder/go-i18n/i18n"
 
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/app"
+	"mattermost-server/model"
+	"mattermost-server/utils"
 )
 
 type Context struct {

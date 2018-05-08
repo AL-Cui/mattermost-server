@@ -19,10 +19,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/app"
+	"mattermost-server/model"
+	"mattermost-server/store"
+	"mattermost-server/utils"
 )
 
 func TestCreateUser(t *testing.T) {

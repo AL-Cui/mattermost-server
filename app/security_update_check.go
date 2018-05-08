@@ -11,8 +11,8 @@ import (
 	"strconv"
 
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/model"
+	"mattermost-server/utils"
 )
 
 const (

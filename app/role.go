@@ -6,7 +6,7 @@ package app
 import (
 	"reflect"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 	"net/http"
 )
 

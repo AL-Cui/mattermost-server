@@ -12,8 +12,8 @@ import (
 	l4g "github.com/alecthomas/log4go"
 	"github.com/nicksnyder/go-i18n/i18n"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/model"
+	"mattermost-server/utils"
 )
 
 func (a *App) SendChangeUsernameEmail(oldUsername, newUsername, email, locale, siteURL string) *model.AppError {

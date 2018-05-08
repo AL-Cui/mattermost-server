@@ -4,7 +4,7 @@
 package einterfaces
 
 import (
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 type SamlInterface interface {

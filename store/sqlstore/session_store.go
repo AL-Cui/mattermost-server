@@ -7,9 +7,10 @@ import (
 	"net/http"
 	"time"
 
+	"mattermost-server/model"
+	"mattermost-server/store"
+
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
 )
 
 const (

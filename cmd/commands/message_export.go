@@ -10,8 +10,9 @@ import (
 
 	"time"
 
-	"github.com/mattermost/mattermost-server/cmd"
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/cmd"
+	"mattermost-server/model"
+
 	"github.com/spf13/cobra"
 )
 

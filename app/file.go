@@ -27,8 +27,8 @@ import (
 	"github.com/rwcarlsen/goexif/exif"
 	_ "golang.org/x/image/bmp"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/model"
+	"mattermost-server/utils"
 )
 
 const (

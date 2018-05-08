@@ -15,9 +15,10 @@ import (
 	"strings"
 	"time"
 
+	"mattermost-server/app"
+	"mattermost-server/cmd"
+
 	"github.com/icrowley/fake"
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/cmd"
 	"github.com/spf13/cobra"
 )
 

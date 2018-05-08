@@ -4,8 +4,8 @@
 package app
 
 import (
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/model"
+	"mattermost-server/utils"
 )
 
 func (a *App) Timezones() model.SupportedTimezones {

@@ -9,7 +9,7 @@ import (
 	"time"
 
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 	goi18n "github.com/nicksnyder/go-i18n/i18n"
 )
 

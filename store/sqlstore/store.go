@@ -4,11 +4,12 @@
 package sqlstore
 
 import (
-	_ "github.com/go-sql-driver/mysql"
-	_ "github.com/lib/pq"
 	"github.com/mattermost/gorp"
 
-	"github.com/mattermost/mattermost-server/store"
+	_ "github.com/go-sql-driver/mysql"
+	_ "github.com/lib/pq"
+
+	"mattermost-server/store"
 )
 
 /*type SqlStore struct {

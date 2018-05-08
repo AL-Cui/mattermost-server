@@ -12,8 +12,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/plugin"
+	"mattermost-server/model"
+	"mattermost-server/plugin"
 )
 
 // Supervisor implements a plugin.Supervisor that launches the plugin in a separate process and

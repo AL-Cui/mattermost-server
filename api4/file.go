@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"mattermost-server/app"
+	"mattermost-server/model"
+	"mattermost-server/utils"
 )
 
 const (

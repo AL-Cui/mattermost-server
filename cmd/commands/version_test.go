@@ -6,7 +6,7 @@ package commands
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/cmd"
+	"mattermost-server/cmd"
 )
 
 func TestVersion(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"sync/atomic"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 	"github.com/segmentio/analytics-go"
 )
 

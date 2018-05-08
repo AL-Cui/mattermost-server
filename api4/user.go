@@ -10,9 +10,9 @@ import (
 	"time"
 
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
+	"mattermost-server/app"
+	"mattermost-server/model"
+	"mattermost-server/store"
 )
 
 func (api *API) InitUser() {

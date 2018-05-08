@@ -7,8 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
+	"mattermost-server/model"
+	"mattermost-server/store"
+
 	"github.com/stretchr/testify/assert"
 )
 
