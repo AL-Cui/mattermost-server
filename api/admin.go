@@ -7,10 +7,11 @@ import (
 	"net/http"
 	"strconv"
 
+	"mattermost-server/app"
+	"mattermost-server/model"
+
 	"github.com/avct/uasurfer"
 	"github.com/gorilla/mux"
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
 )
 
 func (api *API) InitAdmin() {

@@ -7,10 +7,11 @@ import (
 	"net/http"
 	"strconv"
 
+	"mattermost-server/model"
+	"mattermost-server/utils"
+
 	l4g "github.com/alecthomas/log4go"
 	"github.com/gorilla/mux"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
 )
 
 func (api *API) InitChannel() {

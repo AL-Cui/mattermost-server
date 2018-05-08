@@ -6,10 +6,11 @@ package api
 import (
 	"net/http"
 
+	"mattermost-server/app"
+	"mattermost-server/model"
+
 	l4g "github.com/alecthomas/log4go"
 	"github.com/gorilla/mux"
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
 
 	_ "github.com/nicksnyder/go-i18n/i18n"
 )

@@ -6,7 +6,7 @@ package api
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/model"
+	"mattermost-server/model"
 )
 
 func TestHelpCommand(t *testing.T) {

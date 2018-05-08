@@ -12,14 +12,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mattermost/mattermost-server/api4"
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
-	"github.com/mattermost/mattermost-server/store/sqlstore"
-	"github.com/mattermost/mattermost-server/store/storetest"
-	"github.com/mattermost/mattermost-server/utils"
-	"github.com/mattermost/mattermost-server/wsapi"
+	"mattermost-server/api4"
+	"mattermost-server/app"
+	"mattermost-server/model"
+	"mattermost-server/store"
+	"mattermost-server/store/sqlstore"
+	"mattermost-server/store/storetest"
+	"mattermost-server/utils"
+	"mattermost-server/wsapi"
 
 	l4g "github.com/alecthomas/log4go"
 )
