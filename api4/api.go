@@ -109,8 +109,8 @@ type Routes struct {
 
 	Webrtc *mux.Router // 'api/v4/webrtc'
 
-	Company * mux.Router
-} 
+	Orgs *mux.Router //'api/v4/orgs'
+}
 
 type API struct {
 	App        *app.App
@@ -204,7 +204,7 @@ func Init(a *app.App, root *mux.Router, full bool) *API {
 	api.BaseRoutes.Roles = api.BaseRoutes.ApiRoot.PathPrefix("/roles").Subrouter()
 
 	api.BaseRoutes.Image = api.BaseRoutes.ApiRoot.PathPrefix("/image").Subrouter()
-	api.BaseRoutes.Company = api.Ba
+	api.BaseRoutes.Orgs = api.BaseRoutes.ApiRoot.PathPrefix("/orgs").Subrouter()
 
 	api.InitUser()
 	api.InitTeam()
@@ -233,7 +233,7 @@ func Init(a *app.App, root *mux.Router, full bool) *API {
 	api.InitPlugin()
 	api.InitRole()
 	api.InitImage()
-
+	api.InitOrgs()
 	root.Handle("/api/v4/{anything:.*}", http.HandlerFunc(Handle404))
 
 	// REMOVE CONDITION WHEN APIv3 REMOVED

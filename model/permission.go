@@ -67,6 +67,8 @@ var PERMISSION_CREATE_USER_ACCESS_TOKEN *Permission
 var PERMISSION_READ_USER_ACCESS_TOKEN *Permission
 var PERMISSION_REVOKE_USER_ACCESS_TOKEN *Permission
 
+var PERMISSION_CREATE_COMPANY *Permission
+
 // General permission that encompasses all system admin functions
 // in the future this could be broken up to allow access to some
 // admin functions but not others

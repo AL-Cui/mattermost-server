@@ -85,3 +85,8 @@ func GetHostnameFromSiteURL(siteURL string) string {
 
 	return u.Hostname()
 }
+
+func InValidString(s string) bool {
+	match := strings.Contains(s, ":")
+	return match
+}

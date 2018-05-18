@@ -51,7 +51,6 @@ func NewLayeredStore(db LayeredStoreDatabaseLayer, metrics einterfaces.MetricsIn
 		store.LocalCacheLayer.SetChainNext(store.DatabaseLayer)
 		store.LayerChainHead = store.LocalCacheLayer
 	}
-
 	return store
 }
 

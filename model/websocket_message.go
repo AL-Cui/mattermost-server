@@ -48,6 +48,8 @@ const (
 	WEBSOCKET_EVENT_ROLE_UPDATED           = "role_updated"
 	WEBSOCKET_EVENT_LICENSE_CHANGED        = "license_changed"
 	WEBSOCKET_EVENT_CONFIG_CHANGED         = "config_changed"
+
+	WEBSOCKET_EVENT_UPDATE_COMPANY = "update_team"
 )
 
 type WebSocketMessage interface {

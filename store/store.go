@@ -11,6 +11,11 @@ import (
 	"mattermost-server/model"
 )
 
+type ResultOrg struct {
+	Data map[string]string
+	Err  error
+}
+
 type StoreResult struct {
 	Data interface{}
 	Err  *model.AppError
